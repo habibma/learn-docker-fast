@@ -1,13 +1,12 @@
 # Learn Docker Fast
 
 - [Introduction](00-introduction/README.md)
-  - [Why Docker Exists](00-introduction/why-docker-exists.md)
   - [Before Docker](00-introduction/before-docker.md)
+  - [Why Docker Exists](00-introduction/why-docker-exists.md)
 
 - [Linux Processes](01-linux-processes/README.md)
   - [Processes](01-linux-processes/processes.md)
-  - [Namespaces](01-linux-processes/namespaces.md)
-  - [Cgroups](01-linux-processes/cgroups.md)
+  - [Process IDs](01-linux-processes/process-ids.md)
 
 - [Docker Fundamentals](02-docker-fundamentals/README.md)
   - [Images](02-docker-fundamentals/images.md)
