@@ -14,7 +14,7 @@ site:
       title: Docker Fundamentals
       path: docker-fundamentals
       content:
-        directory: ./02-docker-fundamenals
+        directory: ./02-docker-fundamentals
     - type: space
       key: space-dockerfiles
       title: Dockerfiles
