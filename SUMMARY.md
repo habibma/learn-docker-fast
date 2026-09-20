@@ -11,6 +11,7 @@
 - [Docker Fundamentals](02-docker-fundamentals/README.md)
   - [Images](02-docker-fundamentals/images.md)
   - [Containers](02-docker-fundamentals/containers.md)
+  - [Images vs Containers](02-docker-fundamentals/images-vs-containers.md)
   - [Docker CLI](02-docker-fundamentals/docker-cli.md)
 
 - [Dockerfiles](03-dockerfiles/README.md)
