@@ -2,3 +2,12 @@ $schema: https://api.gitbook.com/gitbook-docs.yaml
 
 site:
   title: Learn Docker Fast
+
+  structure:
+    - type: space
+      key: space-learn-docker-fast
+      title: Learn Docker Fast
+      path: learn-docker-fast
+      default: true
+      content:
+        directory: ./
