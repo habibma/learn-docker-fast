@@ -2,7 +2,7 @@
 
 - [Introduction](00-introduction/README.md)
   - [Before Docker](00-introduction/before-docker.md)
-  - [Why Docker Exists](00-introduction/why-docker-exists.md)
+  - [Why Docker Exists](00-introduction/why-docker.md)
 
 - [Linux Processes](01-linux-processes/README.md)
   - [Processes](01-linux-processes/processes.md)
