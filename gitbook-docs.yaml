@@ -3,51 +3,8 @@ site:
   title: Learn Docker Fast
   structure:
     - type: space
-      key: space-linux-processes
-      title: Linux Processes
-      path: linux-processes
+      key: learn-docker-fast
+      title: Learn Docker Fast
       default: true
       content:
-        directory: ./01-linux-processes
-    - type: space
-      key: space-docker-fundamentals
-      title: Docker Fundamentals
-      path: docker-fundamentals
-      content:
-        directory: ./02-docker-fundamentals
-    - type: space
-      key: space-dockerfile
-      title: Dockerfile
-      path: dockerfile
-      content:
-        directory: ./03-dockerfile
-    - type: space
-      key: space-networking
-      title: Networking
-      path: networking
-      content:
-        directory: ./04-networking
-    - type: space
-      key: space-volumes
-      title: Volumes
-      path: volumes
-      content:
-        directory: ./05-volumes
-    - type: space
-      key: space-services-without-docker
-      title: Services Without Docker
-      path: services-without-docker
-      content:
-        directory: ./06-services
-    - type: space
-      key: space-docker-compose
-      title: Docker Compose
-      path: docker-compose
-      content:
-        directory: ./07-compose
-    - type: space
-      key: space-mini-project
-      title: Mini Project
-      path: mini-project
-      content:
-        directory: ./08-mini-project
+        directory: ./
