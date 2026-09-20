@@ -3,19 +3,6 @@ site:
   title: Learn Docker Fast
   structure:
     - type: space
-      key: space-networking
-      title: Networking
-      path: networking
-      content:
-        directory: ./04-networking
-    - type: space
-      key: space-volumes
-      title: Volumes
-      path: volumes
-      default: true
-      content:
-        directory: ./05-volumes
-    - type: space
       key: space-services-without-docker
       title: Services Without Docker
       path: services-without-docker
@@ -25,6 +12,7 @@ site:
       key: space-docker-compose
       title: Docker Compose
       path: docker-compose
+      default: true
       content:
         directory: ./07-compose
     - type: space
