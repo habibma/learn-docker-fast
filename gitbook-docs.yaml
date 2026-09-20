@@ -1,11 +1,12 @@
 $schema: https://api.gitbook.com/gitbook-docs.yaml
+
 site:
   title: Learn Docker Fast
+
   structure:
     - type: space
-      key: space-mini-project
-      title: Mini Project
-      path: mini-project
+      key: learn-docker-fast
+      title: Learn Docker Fast
       default: true
       content:
-        directory: ./08-mini-project
+        directory: ./
