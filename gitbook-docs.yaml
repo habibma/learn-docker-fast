@@ -16,9 +16,9 @@ site:
       content:
         directory: ./02-docker-fundamentals
     - type: space
-      key: space-dockerfiles
-      title: Dockerfiles
-      path: dockerfiles
+      key: space-dockerfile
+      title: Dockerfile
+      path: dockerfile
       content:
         directory: ./03-dockerfile
     - type: space
