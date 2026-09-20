@@ -3,12 +3,6 @@ site:
   title: Learn Docker Fast
   structure:
     - type: space
-      key: space-dockerfiles
-      title: Dockerfiles
-      path: dockerfiles
-      content:
-        directory: ./03-dockerfile
-    - type: space
       key: space-networking
       title: Networking
       path: networking
