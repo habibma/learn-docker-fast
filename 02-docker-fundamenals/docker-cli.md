@@ -1,0 +1,26 @@
+# Docker CLI
+Docker CLI (Command Line Interface) is a powerful tool that allows users to interact with Docker through commands in the terminal. It provides a way to manage Docker containers, images and so on. In this guide, we will cover the basic commands and usage of Docker CLI.
+
+You already know these CLI commands from the previous sections, but here is a quick recap:
+
+```bash
+Docker image ls
+Docker container ls
+Docker run
+Docker stop
+```
+
+And it's a good time to know how to clean up your Docker environment. You can remove unused images, containers, and networks with the following commands:
+
+```bash
+Docker image rm <image_id>  # Remove an image
+Docker container rm <container_id>  # Remove a container
+```
+
+And to remove all stopped containers and unused images, you can use:
+
+```bash
+Docker system prune -a  # Remove all stopped containers and dangling images
+```
+
+If you have used them once and play with them, go to the next section.

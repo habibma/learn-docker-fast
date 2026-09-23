@@ -28,4 +28,4 @@ apt install curl
 ```
 you changed the container's writable layer. You didn't magically rewrite the original image. But what if you want to change an image?
 
-This is where **Dockerfiles** come in.
+This is where **Dockerfiles** come in. But before we get to that, let's review some Docker CLI commands and practice with them.
