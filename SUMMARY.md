@@ -13,7 +13,7 @@
   * [Images vs Containers](02-docker-fundamentals/images-vs-containers.md)
   * [Docker CLI](02-docker-fundamentals/docker-cli.md)
 * [Dockerfiles](dockerfiles/README.md)
-  * [Your First Dockerfile](dockerfiles/your-first-dockerfile.md)
+  * [Your First Dockerfile](dockerfiles/first-dockerfile.md)
 * [Networking](04-networking/README.md)
   * [Container Networking](04-networking/container-networking.md)
   * [Docker Networks](04-networking/docker-networks.md)
