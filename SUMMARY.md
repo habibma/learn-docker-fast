@@ -16,8 +16,6 @@
 
 - [Dockerfiles](03-dockerfiles/README.md)
   - [Your First Dockerfile](03-dockerfiles/first-dockerfile.md)
-  - [Layers](03-dockerfiles/layers.md)
-  - [Build Context](03-dockerfiles/build-context.md)
 
 - [Networking](04-networking/README.md)
   - [Container Networking](04-networking/container-networking.md)
