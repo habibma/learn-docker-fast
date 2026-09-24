@@ -16,7 +16,6 @@
   * [Your First Dockerfile](03-dockerfile/first-dockerfile.md)
 * [Networking](04-networking/README.md)
   * [Container Networking](04-networking/container-networking.md)
-  * [Docker Networks](04-networking/docker-networks.md)
   * [Container-to-Container Communication](04-networking/container-to-container-communication.md)
 * [Volumes](05-volumes/README.md)
   * [Container Storage](05-volumes/container-storage.md)
