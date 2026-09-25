@@ -51,7 +51,7 @@ You are saying:
 
 > "Build my image on top of Debian Bookworm."
 
-What happs behind the scenes?  
+What happens behind the scenes?  
 You receive a base filesystem and metadata that Docker can use as the starting point for your image.
 
 Conceptually:
@@ -144,7 +144,7 @@ Let's build a new image with the new Dockerfile:
 ```bash
 docker build -t hello-image .
 ```
-Now, run it. how? You remmeber!
+Now, run it. how? You remember!
 
 What do you get? intresting, isnt it?
 

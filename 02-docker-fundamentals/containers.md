@@ -18,7 +18,7 @@ docker run hello-world
 
 You'll probably see a message explaining that Docker successfully ran the container. right?
 
-First th=ime you run this command, Docker will download the `hello-world` image from Docker Hub and create a container from it.
+First time you run this command, Docker will download the `hello-world` image from Docker Hub and create a container from it.
 
 Check the list of images you have on your system by running the following command:
 
@@ -49,7 +49,7 @@ or
 docker container ls
 ```
 
-Ypu might see an empty list like this:
+You might see an empty list like this:
 ```
 CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
 
@@ -174,7 +174,7 @@ Then check if `curl` is installed by running:
 curl --version
 ```
 
-What do you see? somthing like this:
+What do you see? something like this:
 ```
 bash: curl: command not found
 ```
