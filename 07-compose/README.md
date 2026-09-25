@@ -18,7 +18,7 @@ The most important mental model is:
 
 > Docker Compose describes and orchestrates a group of containers and the infrastructure they need.
 
-It doesn't replace Docker, and it isn't MariaDB, WordPress, or NGINX. It is the **Consert leader**.
+It doesn't replace Docker, and it isn't MariaDB, WordPress, or NGINX. It is **the orchestrator**.
 
 ## Lessons
 [Compose Basics](./compose-basics.md)  
