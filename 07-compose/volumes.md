@@ -1,11 +1,9 @@
 # Volumes
 
-You also learned this separately.
+You also learned `volumes` separately.
 
-**Compose** can define persistent storage:
+Instead of managing volumes manually, **Compose** can define persistent storage:
 ```yaml
-version: '3.8'
-
 volumes:
   mariadb-data:
   wordpress-data:

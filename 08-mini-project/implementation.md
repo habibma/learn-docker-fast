@@ -48,7 +48,7 @@ Create:
 mariadb/Dockerfile
 ```
 For this project, we can build our MariaDB image from the official MariaDB image:
-```
+```Dockerfile
 FROM mariadb:10.11
 ```
 We don't need to put database credentials directly into the Dockerfile.
@@ -99,7 +99,7 @@ Create:
 nginx/Dockerfile
 ```
 And write the following in the Dockerfile:
-```
+```dockerfile
 FROM nginx:alpine
 
 COPY nginx.conf /etc/nginx/conf.d/default.conf
@@ -115,7 +115,7 @@ Create:
 nginx/nginx.conf
 ```
 with:
-```
+```yaml
 server {
     listen 80;
     server_name localhost;
@@ -145,7 +145,7 @@ Docker's internal DNS resolves it to the WordPress container.
 ## 5. Create the Docker Compose File
 
 Now we can define the complete application in compose.yml.
-```Dockerfile
+```yaml
 services:
 
   mariadb:

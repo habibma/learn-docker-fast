@@ -1,9 +1,8 @@
 # Services
 Before we create a `docker-compose.yml` file, we need to know about the structure of a Compose file.
-A Compose file starts with a `version` and a `services` section. like this:
+A Compose file starts with the `services` section. like this:
 
 ```yaml
-version: '3.8'
 services:
   mariadb:
     ...
@@ -13,8 +12,6 @@ services:
 	...
 ```
 Spaces matter in YAML, so make sure to use the correct indentation. Each service is defined under the `services` section, and each service has its own configuration options. use spaces (two spaces each), not tabs, for indentation.
-
-Why did we decide to use `version: '3.8'`? Because it is the latest version of the Compose file format, and it supports all the features we need for our project.
 
 Why did we devide to use `mariadb`, `wordpress`, and `nginx` as our services? Because they are the core components of our mini-project we want to build in the last section of this course.
 
@@ -60,7 +57,7 @@ services:
 ```
 For our mini-project, we will use the our own images created from the Dockerfiles we will write in the last section of this course. So we will use the `build` option for our services.
 Conceptually:
-```
+```text
 ./my-service
         │
         └── Dockerfile

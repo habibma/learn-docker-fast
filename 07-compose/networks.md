@@ -1,12 +1,10 @@
 # Networks
 
-You already learned Docker networking separately.
+You already learned **Docker networking** separately.
 
-Now **Compose** can create the network for you.
+Instead of managing networks manually, **Compose** can create the network for you.
 
 ```yaml
-version: '3.8'
-
 networks:
   internal-network:
 	driver: bridge
@@ -26,7 +24,7 @@ services:
       - internal-network
 ```
 The resulting architecture is:
-```
+```text
                internal-network
         ┌──────────────┼──────────────┐
         │              │              │
@@ -36,10 +34,10 @@ The resulting architecture is:
 Because they're on the same Docker network, they can communicate using service names.
 
 For example:
-```diagram
+```text
 wordpress → mariadb:3306
 ```
 and:
-```diagram
+```text
 nginx → wordpress:9000
 ```

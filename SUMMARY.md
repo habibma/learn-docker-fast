@@ -33,7 +33,7 @@
   * [Services](07-compose/services.md)
   * [Networks](07-compose/networks.md)
   * [Volumes](07-compose/volumes.md)
-  * [Environment Variables](07-compose/environment-variables.md)
+  * [Compose File](07-compose/compose-file.md)
   * [Commands](07-compose/commands.md)
   * [Wrapping Up](07-compose/wrapping-up.md)
 * [Mini Project](08-mini-project/README.md)
