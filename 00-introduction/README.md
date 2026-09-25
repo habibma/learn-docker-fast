@@ -32,4 +32,4 @@ By the end of this section, you should have a clear answer to:
 
 ## Lessons
 [Before Docker](./before-docker.md)  
-[Why Docker Exists](./why-docker-exists.md) 
+[Why Docker Exists](./why-docker.md) 
