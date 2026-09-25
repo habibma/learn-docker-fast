@@ -17,3 +17,7 @@ You don't need to become a Linux kernel expert. You just need to understand enou
 > What is happening underneath a Docker container?
 
 Once you can answer that, Docker stops looking like magic.
+
+## Lessons
+[Processes](./processes.md)  
+[Process IDs](./process-ids.md)

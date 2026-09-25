@@ -55,3 +55,9 @@ It is much closer to:
 A process running with isolation around its filesystem, networking, processes, etc.
 
 We'll eventually get deeper into how this works.
+
+## Lessons
+[Images](./images.md)  
+[Containers](./containers.md)  
+[Images vs Containers](./images-vs-containers.md)
+[Docker CLI](./docker-cli.md)
