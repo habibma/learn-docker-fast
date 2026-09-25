@@ -109,14 +109,14 @@ Now exit the container by typing `exit` and pressing Enter. You will return to y
 Let's remember the concept of image and container:
 
 ```bash
-Docker image ls
+docker image ls
 ```
 
 What do you get? 
 
 And then try this:
 ```bash
-Docker container ls -a
+docker container ls -a
 ```
 What do you get?
 
@@ -149,11 +149,11 @@ Now, run it. how? You remmeber!
 What do you get? intresting, isnt it?
 
 
-# Recap
+## Recap
 In this section, you learned how to create a Dockerfile, build a custom image from it, and run a container from that image. You also learned about the `FROM`, `RUN`, `COPY`, and `CMD` instructions in a Dockerfile. You practiced building an image based on the Debian Bookworm image, installing curl, and copying a file into the image. You also learned how to run a container from your custom image and check if curl is installed. Finally, you practiced using the `COPY` instruction to include a file in your custom image and run a command to display its content when the container starts.
 
 Docker roughly works in three steps in the Build process:
-```bash
+```text
 Step 1
 FROM debian:bookworm
         ↓
@@ -174,7 +174,7 @@ IMAGE CREATED
 ```
 
 And in the Run process:
-```
+```text
 Step 1
 docker run -it hello-image
 		↓
