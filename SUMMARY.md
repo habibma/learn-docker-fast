@@ -39,4 +39,7 @@
 * [Mini Project](08-mini-project/README.md)
   * [Architecture](08-mini-project/architecture.md)
   * [Implementation](08-mini-project/implementation.md)
+  * [Understanding the Compose File](08-mini-project/understanding-compose-file.md)
+  * [Build & Start](08-mini-project/build-start.md)
+  * [Testing & Debugging](08-mini-project/testing-debugging.md)
   * [Final Project](08-mini-project/final-project.md)
