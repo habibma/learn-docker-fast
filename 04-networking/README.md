@@ -7,3 +7,7 @@ The key mistake we want to avoid is thinking:
 > All containers live on one shared computer, so they can reach the other containers.
 
 NO!!!
+
+# Lessons
+[Container Networking](./container-networking.md)
+[Container-to-Container Communication](./container-to-container-communication.md)
