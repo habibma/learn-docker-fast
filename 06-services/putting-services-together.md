@@ -1,5 +1,5 @@
 # Putting Services Together
-```diagram
+```text
                          Browser
                             │
                             │ HTTPS

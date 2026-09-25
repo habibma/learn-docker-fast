@@ -23,7 +23,7 @@ services:
       - wordpress-data:/var/www/html
 ```
 Conceptually:
-```diagram
+```text
                      Docker
                        │
               ┌────────┴────────┐
