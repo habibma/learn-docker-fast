@@ -410,6 +410,7 @@ PHP-FPM
 NGINX
 ```
 7. NGINX responds to the browser
+```text
 NGINX
    │
    │ HTTP response
