@@ -1,4 +1,4 @@
-# what are services in docker?
+# What Are Services in Docker?
 Services in Docker are a way to define and manage a set of containers that work together to provide a specific functionality. They are typically used in conjunction with Docker Compose to define multi-container applications.
 
 To learn Compose and later implement our Mini Project, we need to understand these concepts first. So, let's start with the basics of services in Docker.:
@@ -6,8 +6,7 @@ To learn Compose and later implement our Mini Project, we need to understand the
 1. MariaDB alone
 2. PHP alone → PHP-FPM
 3. NGINX + static HTML
-4. NGINX + PHP-FPM + simple PHP
-5. Only then: WordPress
+4. Only then: WordPress
 ```
 But before we start, let's learn what each service actually does before hiding it behind Docker.
 
